@@ -1,4 +1,4 @@
-# Voice Assistant Project
+i need this whole text in markdown format # Voice Assistant Project
 
 ## Overview
 
@@ -41,5 +41,59 @@ This is a Python-based voice assistant designed to assist users with a variety o
 
 To run the assistant, you need to install the following Python libraries:
 
-```bash
-pip install speechrecognition pyttsx3 wikipedia requests schedule google-api-python-client google-auth-httplib2 RPi.GPIO
+{```bash
+pip install speechrecognition pyttsx3 wikipedia requests schedule google-api-python-client google-auth-httplib2 RPi.GPIO```
+
+
+## Setup Instructions
+
+Follow these steps to set up and run the Voice Assistant:
+
+1. **Clone the Repository**:  
+   First, clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/yourusername/voice-assistant.git
+   cd voice-assistant
+Install Dependencies:
+Install the required Python libraries using pip. Ensure you have Python 3.6+ installed.
+
+[```bash
+Copy
+pip install -r requirements.txt```]
+#API Keys and Authentication:
+
+Weather API: Sign up at OpenWeatherMap and get your API Key.
+
+Google Calendar API: Set up the Google Calendar API by following the Quickstart Guide and download the credentials.json file for OAuth2 authentication.
+
+Gmail Setup: If you're using Gmail, you may need to generate an App Password if you have 2FA enabled.
+
+GPIO Setup (For Raspberry Pi only):
+
+Connect your IoT devices (e.g., lights, motors) to the Raspberry Pi's GPIO pins.
+
+###Install the RPi.GPIO library if not already installed:
+
+[```bash
+Copy
+sudo apt-get install python3-rpi.gpio```]
+Run the Assistant:
+After completing the setup, you can start the assistant by running the following command:
+
+[```bash
+Copy
+python assistant.py```]
+##Give Commands:
+
+Speak into the microphone, and the assistant will respond to your commands.
+
+Examples of commands you can try:
+
+"What is the time?"
+
+"Tell me the weather."
+
+"Set a reminder for meeting at 3 PM."
+
+"Send an email to example@example.com."
